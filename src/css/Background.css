@@ -1,0 +1,126 @@
+.background {
+  height: 450px;
+  position: relative;
+  margin-bottom: 0;
+}
+.background .left {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background-color: #f5f5f5;
+  justify-content: left;
+  align-items: center;
+}
+.background .left img {
+  margin-left: 180px;
+  height: 80px;
+}
+.background .right {
+  display: flex;
+  width: 100%;
+  background-color: #006241;
+  height: 100%;
+  justify-content: right;
+  align-items: center;
+}
+.background .right img {
+  margin-right: 90px;
+  height: 80px;
+}
+.background .center {
+  position: absolute;
+  width: 50%;
+  height: 75%;
+  flex-wrap: nowrap;
+  background: #fff;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: 0.8;
+  overflow: hidden;
+}
+.background .center .container {
+  align-items: center;
+}
+.background .center .container .title {
+  margin-top: 35px;
+  color: #006241;
+  font-weight: bolder;
+}
+.background .center .container .description {
+  margin: 20px;
+  font-size: 20px;
+}
+.communityPartner {
+  padding: 50px;
+}
+.communityPartner .image-container {
+  position: relative;
+  width: 410px;
+  margin-right: 10px;
+  height: 510px;
+}
+.communityPartner .image-container .first-image {
+  border: none;
+  width: 300px;
+  height: 400px;
+  clip-path: polygon(0 0, 100% 0, 100% 24%, 32% 24%, 32% 100%, 0 100%);
+}
+.communityPartner .image-container .first-image img {
+  border-radius: 50px 0 0 0;
+  height: 100%;
+  width: 100%;
+}
+.communityPartner .image-container .second-image {
+  bottom: 2px;
+  right: 2px;
+  position: absolute;
+  width: 300px;
+  height: 400px;
+}
+.communityPartner .image-container .second-image img {
+  border-radius: 0 0 50px 0;
+  height: 100%;
+  width: 100%;
+}
+.communityPartner .content {
+  height: 510px;
+  width: 500px;
+  margin: 10px;
+  overflow: hidden;
+  position: relative;
+}
+.communityPartner .content .title {
+  text-align: left;
+  color: #006241;
+  font-weight: bolder;
+}
+.communityPartner .content .desc {
+  margin: 0 auto;
+  /* Center the container horizontally */
+  text-align: justify;
+  /* Justify the text to align both the left and right edges */
+  line-height: 1.5;
+  font-size: 17px;
+  color: #222;
+  font-weight: 500;
+  padding-top: 20px;
+}
+.communityPartner .content .tearfund-container {
+  padding: 10px;
+}
+.communityPartner .content .tearfund-container .first::before {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background-color: #085743;
+}
+.communityPartner .content .tearfund-container .second::after {
+  height: 50px;
+  background-color: #085743;
+}
