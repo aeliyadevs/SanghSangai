@@ -1,7 +1,26 @@
 .background {
-  height: 450px;
-  position: relative;
-  margin-bottom: 0;
+  background: linear-gradient(
+    to right,
+    var(--secondary-color) 50%,
+    var(--primary-color) 50%
+  );
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.background .content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 30px;
+  padding: 20px;
+  width: 50%;
+  height: auto;
+  background-color: #fff;
+  opacity: 0.8;
 }
 .background .left {
   display: flex;
