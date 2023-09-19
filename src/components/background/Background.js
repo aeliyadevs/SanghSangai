@@ -34,8 +34,8 @@ const Background = () => {
     //   </div>
     // </div>
     <div className="background">
-      <img className="left-img" src={shape} alt="" />
-      <img className="right-img" src={shape} alt="" />
+      <img className="bg-img left-img" src={shape} alt="" />
+      <img className="bg-img right-img" src={shape} alt="" />
 
       <div className="content">
         <h2 className="title">Background</h2>

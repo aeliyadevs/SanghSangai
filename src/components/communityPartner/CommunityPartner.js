@@ -1,11 +1,12 @@
 import React from "react";
 import communityPartner from "../../img/team.jpg";
+import "../../css/CommunityPartner.css";
 
 const CommunityPartner = () => {
   return (
     <div
       id="communityPartner"
-      className="communityPartner d-flex justify-content-center align-items-center"
+      className="communityPartner d-flex justify-content-center align-items-center col-md"
     >
       <div className="image-container">
         <div className="first-image">
