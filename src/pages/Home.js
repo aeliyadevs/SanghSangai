@@ -23,6 +23,7 @@ import Background from "../components/background/Background";
 import CommunityPartner from "../components/communityPartner/CommunityPartner";
 import AboutSlider from "../components/AboutSlider";
 import Banner from "../components/Banner";
+import PartnerCard from "../components/PartnerCard";
 
 const Home = () => {
   return (
@@ -30,78 +31,10 @@ const Home = () => {
       <Header />
       <Banner />
       <div className="home-container">
-        {/* <div
-          className="teampic"
-          style={{
-            width: "100%",
-            height: "60vh",
-            margin: "0",
-            padding: "0",
-            overflow: "hidden",
-          }}
-        >
-          <img
-            src={img9}
-            alt="teampic"
-            style={{
-              width: "100%",
-              height: "100%",
-              objectFit: "cover",
-              margin: "0",
-              padding: "0",
-            }}
-          />
-          <div
-            className="team-text"
-            style={{
-              position: "absolute",
-              top: "50%",
-              left: "50%",
-              transform: "translate(-50%, -50%)",
-              fontSize: "100px",
-              fontWeight: "bold",
-              textShadow: "2px 2px 4px rgba(0, 0, 0, 0.1)",
-              fontStyle: "italic",
-              color: "transparent",
-              WebkitTextStroke: "2px white",
-              WebkitBackgroundClip: "text",
-            }}
-          >
-            SangaSangai
-          </div>
-        </div> */}
-
         <Background />
 
-        {/* logo */}
-        <div className="container">
-          <div className="row justify-content-center align-items-center">
-            <div className="col-md-4 col-sm-12 text-center mb-5 mb-sm-0">
-              <img
-                src={img6}
-                alt="logo"
-                className="img-fluid mt-5 mt-sm-0"
-                style={{ maxWidth: "120px", height: "auto" }}
-              />
-            </div>
-            <div className="col-md-4 col-sm-12 text-center mb-5 mb-sm-0">
-              <img
-                src={img7}
-                alt="logo"
-                className="img-fluid"
-                style={{ maxWidth: "120px", height: "auto" }}
-              />
-            </div>
-            <div className="col-md-4 col-sm-12 text-center">
-              <img
-                src={img8}
-                alt="logo"
-                className="img-fluid"
-                style={{ maxWidth: "120px", height: "auto" }}
-              />
-            </div>
-          </div>
-        </div>
+        {/* company logo */}
+        <PartnerCard />
 
         {/* Our team */}
 
@@ -164,88 +97,10 @@ const Home = () => {
               </div>
             </div>
           </div>
+
+          {/* About Us Section */}
           <AboutSlider />
-        </div>
-
-        {/* About Us Section */}
-        <div className="about-us-carousel">
-          <Carousel showArrows={true} infiniteLoop={true}>
-            {/* Carousel Item 1 */}
-            {/* <div className="about-us">
-                <h2 className="heading">About Us</h2>
-                <div className="about-content">
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                    id urna eu ipsum facilisis tristique. Nullam vitae tincidunt
-                    nisl. Sed ultricies urna vel quam euismod, vel bibendum
-                    neque feugiat. Duis elementum nisi ut lacus lacinia
-                  </p>
-                  <img
-                    src={img5}
-                    alt="Testimonial"
-                    style={{ width: "50px", height: "auto" }}
-                  />
-                  <h5>Aeliya Tamang</h5>
-                </div>
-              </div> */}
-
-            {/* Carousel Item 2 */}
-            {/* <div className="about-us">
-                <h2>About Us</h2>
-                <div className="about-content">
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                    id urna eu ipsum facilisis tristique. Nullam vitae tincidunt
-                    nisl. Sed ultricies urna vel quam euismod, vel bibendum
-                    neque feugiat. Duis elementum nisi ut lacus lacinia
-                  </p>
-                  <img
-                    src={img5}
-                    alt="Testimonial"
-                    style={{ width: "50px", height: "auto" }}
-                  />
-                  <h5>Anushka Suyal</h5>
-                </div>
-              </div> */}
-
-            {/* Carousel Item 3 */}
-            {/* <div className="about-us">
-                <h2>About Us</h2>
-                <div className="about-content">
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                    id urna eu ipsum facilisis tristique. Nullam vitae tincidunt
-                    nisl. Sed ultricies urna vel quam euismod, vel bibendum
-                    neque feugiat. Duis elementum nisi ut lacus lacinia
-                  </p>
-                  <img
-                    src={img5}
-                    alt="Testimonial"
-                    style={{ width: "50px", height: "auto" }}
-                  />
-                  <h5>Riya Shrestha</h5>
-                </div>
-              </div> */}
-
-            {/* Carousel Item 4 */}
-            {/* <div className="about-us">
-                <h2>About Us</h2>
-                <div className="about-content">
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                    id urna eu ipsum facilisis tristique. Nullam vitae tincidunt
-                    nisl. Sed ultricies urna vel quam euismod, vel bibendum
-                    neque feugiat. Duis elementum nisi ut lacus lacinia
-                  </p>
-                  <img
-                    src={img5}
-                    alt="Testimonial"
-                    style={{ width: "50px", height: "auto" }}
-                  />
-                  <h5>Subash Danuwar</h5>
-                </div>
-              </div> */}
-          </Carousel>
+          
         </div>
       </div>
 
