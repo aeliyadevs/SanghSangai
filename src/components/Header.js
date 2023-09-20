@@ -45,7 +45,9 @@ const Header = () => {
   return (
     <header>
       <div className="logo">
-        <img src={Logo} alt="SanghSangai logo" />
+        <a href="/SanghSangai/">
+          <img src={Logo} alt="SanghSangai logo" />
+        </a>
       </div>
       <nav id="navigation">
         <ul>

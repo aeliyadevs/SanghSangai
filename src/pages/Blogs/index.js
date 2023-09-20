@@ -11,6 +11,7 @@ const Blogs = () => {
       image: "images/cp1.jpg",
       category: "Team Reflection",
       publishedDate: "15th September 2023",
+      link: "/SanghSangai/singlepage",
     },
     {
       title: "Team reflection for the second sprint",
@@ -19,6 +20,7 @@ const Blogs = () => {
       image: "images/cp2.jpg",
       category: "Team Reflection",
       publishedDate: "15th September 2023",
+      link: "/SanghSangai/singlepage",
     },
     {
       title: "Team reflection for the third sprint",
@@ -27,6 +29,7 @@ const Blogs = () => {
       image: "images/cp3.jpg",
       category: "Team Reflection",
       publishedDate: "15th September 2023",
+      link: "/SanghSangai/singlepage",
     },
   ];
   return (
@@ -50,7 +53,7 @@ const Blogs = () => {
                 a large language ocean.
               </p>
               <div className="read-more">
-                <a href="">
+                <a href="/SanghSangai/singlepage">
                   Read More <i className="fa-solid fa-arrow-right-long"></i>
                 </a>
               </div>

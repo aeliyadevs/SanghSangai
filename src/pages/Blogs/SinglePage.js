@@ -1,11 +1,12 @@
 import React from "react";
-import "../../css/SinglePage.css";
+import "../../css/Blogs/SinglePage.css";
 import blogpic from "../../img/team.jpg";
 import inspire from "../../img/inspire.png";
+import Default from "../../layouts/Default";
 
 const SinglePage = () => {
   return (
-    <div>
+    <Default>
       <div className="blogpage">
         <div className="blogcontent">
           <div className="blogimg">
@@ -54,7 +55,7 @@ const SinglePage = () => {
           </div>
         </div>
       </div>
-    </div>
+    </Default>
   );
 };
 
