@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.css": "/SanghSangai/static/css/main.4a039aa2.css",
-    "main.js": "/SanghSangai/static/js/main.85a7c06e.js",
+    "main.css": "/SanghSangai/static/css/main.797ab981.css",
+    "main.js": "/SanghSangai/static/js/main.98115d02.js",
     "static/js/787.9fa786b9.chunk.js": "/SanghSangai/static/js/787.9fa786b9.chunk.js",
     "static/media/team.jpg": "/SanghSangai/static/media/team.65b86734273b18aa2d66.jpg",
     "static/media/riya.jpg": "/SanghSangai/static/media/riya.c0031bc6567407805b8f.jpg",
+    "static/media/teamSanghSangai.jpg": "/SanghSangai/static/media/teamSanghSangai.98994296dec8b338ef6d.jpg",
     "static/media/cp4.jpg": "/SanghSangai/static/media/cp4.21c409507d5c8de8ade4.jpg",
     "static/media/cp2.jpg": "/SanghSangai/static/media/cp2.a042fda29839a4dea968.jpg",
     "static/media/cp3.jpg": "/SanghSangai/static/media/cp3.be59d1434de33cfb1448.jpg",
@@ -20,12 +21,12 @@
     "static/media/slick.ttf": "/SanghSangai/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/SanghSangai/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/SanghSangai/index.html",
-    "main.4a039aa2.css.map": "/SanghSangai/static/css/main.4a039aa2.css.map",
-    "main.85a7c06e.js.map": "/SanghSangai/static/js/main.85a7c06e.js.map",
+    "main.797ab981.css.map": "/SanghSangai/static/css/main.797ab981.css.map",
+    "main.98115d02.js.map": "/SanghSangai/static/js/main.98115d02.js.map",
     "787.9fa786b9.chunk.js.map": "/SanghSangai/static/js/787.9fa786b9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4a039aa2.css",
-    "static/js/main.85a7c06e.js"
+    "static/css/main.797ab981.css",
+    "static/js/main.98115d02.js"
   ]
 }
