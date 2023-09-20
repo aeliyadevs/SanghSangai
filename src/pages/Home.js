@@ -24,11 +24,11 @@ import CommunityPartner from "../components/communityPartner/CommunityPartner";
 import AboutSlider from "../components/AboutSlider";
 import Banner from "../components/Banner";
 import PartnerCard from "../components/PartnerCard";
+import Default from "../layouts/Default";
 
 const Home = () => {
   return (
-    <>
-      <Header />
+    <Default>
       <Banner />
       <div className="home-container">
         <Background />
@@ -45,7 +45,7 @@ const Home = () => {
           <div className="container">
             <h2 className="heading text-center mb-5">Meet Our Team</h2>
             <div className="row">
-              <div className="col-lg-3 col-md-4 col-sm-6 mb-5">
+              <div className="col-lg-3 col-md-4 col-sm-6 mb-3">
                 <div className="team-member">
                   <div
                     className="round-image"
@@ -57,7 +57,7 @@ const Home = () => {
                   <p className="universityname">Tribhuwan University</p>
                 </div>
               </div>
-              <div className="col-lg-3 col-md-4 col-sm-6 mb-5">
+              <div className="col-lg-3 col-md-4 col-sm-6 mb-3">
                 <div className="team-member">
                   <div
                     className="round-image"
@@ -69,7 +69,7 @@ const Home = () => {
                   <p className="universityname">Tribhuwan University</p>
                 </div>
               </div>
-              <div className="col-lg-3 col-md-4 col-sm-6 mb-5">
+              <div className="col-lg-3 col-md-4 col-sm-6 mb-3">
                 <div className="team-member">
                   <div
                     className="round-image"
@@ -83,7 +83,7 @@ const Home = () => {
                   </p>
                 </div>
               </div>
-              <div className="col-lg-3 col-md-4 col-sm-6 mb-5">
+              <div className="col-lg-3 col-md-4 col-sm-6 mb-3">
                 <div className="team-member">
                   <div
                     className="round-image"
@@ -100,30 +100,9 @@ const Home = () => {
 
           {/* About Us Section */}
           <AboutSlider />
-          
         </div>
       </div>
-
-      {/* Footer Section */}
-      <div className="footer">
-        <p>&copy; 2023 SangaSangai. All rights reserved.</p>
-        <div className="footer-links">
-          {/* <Link to="/about">About </Link> */}
-          <a href="https://inspireuvic.org/" target="_blank">
-            Inspire
-          </a>
-          <a
-            href="https://www.tearfund.org/about-us/our-impact/where-we-work/nepal"
-            target="_blank"
-          >
-            Tearfund
-          </a>
-          <a href="https://www.facebook.com/MicahNetworkNepal/" target="_blank">
-            Micah
-          </a>
-        </div>
-      </div>
-    </>
+    </Default>
   );
 };
 

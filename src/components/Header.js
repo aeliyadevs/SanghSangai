@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import "../css/Header.css";
 import Logo from "../img/logo.png";
-import { Link } from "react-router-dom";
+import { Link, Navigate } from "react-router-dom";
 
 const Header = () => {
   const menuOpen = () => {
@@ -69,6 +69,10 @@ const Header = () => {
             <a href="#team" onClick={scrollToTeam}>
               Team
             </a>
+          </li>
+
+          <li>
+            <a href="/SanghSangai/blogs">Blogs</a>
           </li>
           <i
             id="menu-close"
