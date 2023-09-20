@@ -37,6 +37,10 @@
   right: 15%;
 }
 
+.description p {
+  text-align: justify;
+}
+
 @media screen and (max-width: 768px) {
   .background .content {
     margin: 20px;
