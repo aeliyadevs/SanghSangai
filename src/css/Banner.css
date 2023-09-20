@@ -2,7 +2,8 @@
 
 .banner-wrap {
   /* background-color: blueviolet; */
-  background: linear-gradient(#00000088, #00000088), url("../img/team.jpg");
+  background: linear-gradient(#00000088, #00000088),
+    url("../img/teamSanghSangai.jpg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
