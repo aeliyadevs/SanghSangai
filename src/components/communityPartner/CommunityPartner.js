@@ -1,11 +1,12 @@
 import React from "react";
 import communityPartner from "../../img/team.jpg";
+import "../../css/CommunityPartner.css";
 
 const CommunityPartner = () => {
   return (
     <div
       id="communityPartner"
-      className="communityPartner d-flex justify-content-center align-items-center"
+      className="communityPartner d-flex justify-content-center align-items-center col-md"
     >
       <div className="image-container">
         <div className="first-image">
@@ -24,7 +25,7 @@ const CommunityPartner = () => {
           </p>
         </div>
         <div className="tearfund-container">
-          <div className="tearfund-items">
+          <div className="cp-items">
             <h4 className="title">Tearfund Nepal</h4>
             <div className="desc">
               <p>
@@ -34,7 +35,7 @@ const CommunityPartner = () => {
               </p>
             </div>
           </div>
-          <div className="tearfund-items">
+          <div className="cp-items">
             <div className="first"></div>
             <div className="second"></div>
             <h4 className="title">Micah Nepal</h4>

@@ -1,0 +1,124 @@
+.communityPartner {
+  padding: 50px;
+}
+.communityPartner .image-container {
+  position: relative;
+  width: 410px;
+  margin-right: 10px;
+  height: 510px;
+}
+.communityPartner .image-container .first-image {
+  border: none;
+  width: 300px;
+  height: 400px;
+  /* clip-path: polygon(0 0, 100% 0, 100% 24%, 32% 24%, 32% 100%, 0 100%); */
+}
+.communityPartner .image-container .first-image img {
+  border-radius: 50px 0 0 0;
+  height: 100%;
+  width: 100%;
+}
+.communityPartner .image-container .second-image {
+  border: 10px solid var(--secondary-color);
+  bottom: 2px;
+  right: 2px;
+  position: absolute;
+  width: 300px;
+  height: 400px;
+}
+.communityPartner .image-container .second-image img {
+  border-radius: 0 0 50px 0;
+  height: 100%;
+  width: 100%;
+}
+.communityPartner .content {
+  height: 510px;
+  width: 500px;
+  margin: 10px;
+  overflow: hidden;
+  position: relative;
+}
+
+.communityPartner .content .title {
+  text-align: left;
+  color: #006241;
+  font-weight: bolder;
+}
+.communityPartner .content .desc {
+  margin: 0 auto;
+  /* Center the container horizontally */
+  text-align: justify;
+  /* Justify the text to align both the left and right edges */
+  line-height: 1.5;
+  font-size: 17px;
+  color: #222;
+  font-weight: 500;
+  padding-top: 20px;
+}
+.communityPartner .content .tearfund-container {
+  padding: 10px;
+}
+.communityPartner .content .tearfund-container .cp-items {
+  position: relative;
+  padding-left: 20px;
+}
+
+.communityPartner .content .tearfund-container .cp-items::before {
+  content: "";
+  width: 2px;
+  height: 90%;
+  background: var(--primary-color);
+  position: absolute;
+  left: 0;
+}
+.communityPartner .content .tearfund-container .cp-items::after {
+  content: "";
+  width: 20px;
+  height: 20px;
+  background: var(--primary-color);
+  position: absolute;
+  left: -8px;
+  top: 0;
+  border-radius: 50%;
+}
+.communityPartner .content .tearfund-container .first::before {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background-color: #085743;
+}
+.communityPartner .content .tearfund-container .second::after {
+  height: 50px;
+  background-color: #085743;
+}
+
+@media screen and (max-width: 768px) {
+  .communityPartner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .communityPartner .image-container {
+    /* width: 100%;
+    display: flex;
+    align-items: center;
+    justify-self: center; */
+    padding: 0 70px 0 70px;
+  }
+
+  .communityPartner .image-container .first-image img {
+    border-radius: 50px 0 50px 0;
+    width: 300px;
+    height: 400px;
+  }
+
+  .communityPartner .image-container .second-image {
+    display: none;
+  }
+
+  .communityPartner .content {
+    padding: 0 70px 0 70px;
+  }
+}
