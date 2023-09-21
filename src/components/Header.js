@@ -45,9 +45,9 @@ const Header = () => {
   return (
     <header>
       <div className="logo">
-        <a href="/SanghSangai/">
+        <Link to="/">
           <img src={Logo} alt="SanghSangai logo" />
-        </a>
+        </Link>
       </div>
       <nav id="navigation">
         <ul>
@@ -74,7 +74,7 @@ const Header = () => {
           </li>
 
           <li>
-            <a href="/SanghSangai/blogs">Blogs</a>
+            <Link to="/blogs">Blogs</Link>
           </li>
           <i
             id="menu-close"

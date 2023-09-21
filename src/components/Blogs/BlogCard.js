@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 const BlogCard = (props) => {
   return (
@@ -15,9 +16,9 @@ const BlogCard = (props) => {
           <h3>{props.blog.title}</h3>
           <p>{props.blog.content.substring(0, 120) + " ..."}</p>
           <div className="read-more">
-            <a href={props.blog.link}>
+            <Link to={props.blog.link}>
               Read More <i className="fa-solid fa-arrow-right-long"></i>
-            </a>
+            </Link>
           </div>
         </div>
       </div>
