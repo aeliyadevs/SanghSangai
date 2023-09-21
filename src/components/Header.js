@@ -42,6 +42,17 @@ const Header = () => {
     }
   };
 
+  const activate = (e) => {
+    // console.log(e.target.parentElement);
+    var navLists = document.querySelectorAll(".nav-list");
+    navLists.forEach((list) => {
+      if (list.classList.contains("active")) {
+        list.classList.remove("active");
+      }
+    });
+    e.target.parentElement.classList.add("active");
+  };
+
   return (
     <header>
       <div className="logo">
@@ -51,29 +62,29 @@ const Header = () => {
       </div>
       <nav id="navigation">
         <ul>
-          <li className="active">
+          <li className="nav-list active" onClick={activate}>
             <a href="#background" onClick={scrollToBackground}>
               Background
             </a>
           </li>
 
-          <li>
+          <li className="nav-list" onClick={activate}>
             <a href="#communityPartner" onClick={scrollToCP}>
               Community Partner
             </a>
           </li>
-          <li>
+          <li className="nav-list" onClick={activate}>
             <a href="#project" onClick={scrollToProject}>
               Project
             </a>
           </li>
-          <li>
+          <li className="nav-list" onClick={activate}>
             <a href="#team" onClick={scrollToTeam}>
               Team
             </a>
           </li>
 
-          <li>
+          <li className="nav-list" onClick={activate}>
             <Link to="/blogs">Blogs</Link>
           </li>
           <i

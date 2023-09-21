@@ -8,7 +8,6 @@ const BlogCard = (props) => {
         <div className="blog-img">
           <img src={props.blog.image} />
         </div>
-        {console.log(props.blog.image)}
         <div className="blog-info">
           <span>
             {props.blog.category} | {props.blog.publishedDate}
