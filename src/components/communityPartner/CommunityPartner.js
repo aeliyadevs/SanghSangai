@@ -34,7 +34,7 @@ const CommunityPartner = () => {
         </div>
       </div>
       <div className="contents">
-        <h2 className="main-title">Community Partners</h2>
+        <h2 className="title">Community Partners</h2>
 
         <p className="desc">
           The two of the community partners for this year's project are Tearfund

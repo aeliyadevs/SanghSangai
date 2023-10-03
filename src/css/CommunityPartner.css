@@ -38,19 +38,12 @@
   overflow: hidden;
   position: relative;
 }
-.communityPartner .contents h2 {
+.communityPartner .contents .title {
   font-weight: bolder;
   color: #006241;
-}
-.communityPartner .contents .main-title {
-  text-align: center;
-}
-
-.communityPartner .contents .title {
   text-align: left;
-
-  /* margin-bottom: 20px; */
 }
+
 .communityPartner .contents .desc {
   margin: 0 auto;
 
@@ -86,7 +79,7 @@
   left: -8px;
   top: 0;
   border-radius: 50%;
-  animation: move 5s infinite linear;
+  animation: move 7s infinite linear;
 }
 
 @keyframes move {
@@ -95,7 +88,7 @@
   }
 
   50% {
-    transform: translateY(120px);
+    transform: translateY(20px);
   }
 }
 
