@@ -16,38 +16,35 @@ const CommunityPartner = () => {
           <img className="object-fit-cover" src={communityPartner} alt="" />
         </div>
       </div>
-      <div className="content">
-        <h2 className="title">Community Partners</h2>
-        <div className="desc">
-          <p>
-            The two of the community partners for this year's project are
-            Tearfund and Micah Nepal.
-          </p>
-        </div>
+      <div className="contents">
+        <h2 className="main-title">Community Partners</h2>
+
+        <p className="desc">
+          The two of the community partners for this year's project are Tearfund
+          and Micah Nepal.
+        </p>
+
         <div className="tearfund-container">
           <div className="cp-items">
             <h4 className="title">Tearfund Nepal</h4>
-            <div className="desc">
-              <p>
-                Tearfund has been working in Nepal since the 1970s and is
-                currently partnering with seven organisations across the
-                country.
-              </p>
-            </div>
+
+            <p className="desc">
+              Tearfund has been working in Nepal since the 1970s and is
+              currently partnering with seven organisations across the country.
+            </p>
           </div>
           <div className="cp-items">
             <div className="first"></div>
             <div className="second"></div>
             <h4 className="title">Micah Nepal</h4>
-            <div className="desc">
-              <p>
-                Micah Nepal is a registered non-governmental organization in
-                Nepal. They attend and seek to assist in Nepal where help is
-                needed, whether it be Education, Caring for Families, Water
-                Cleanliness, Food supplies and disaster support. Micah has been
-                working to equip and empower members and leaders in communities.
-              </p>
-            </div>
+
+            <p className="desc">
+              Micah Nepal is a registered non-governmental organization in
+              Nepal. They attend and seek to assist in Nepal where help is
+              needed, whether it be Education, Caring for Families, Water
+              Cleanliness, Food supplies and disaster support. Micah has been
+              working to equip and empower members and leaders in communities.
+            </p>
           </div>
         </div>
       </div>

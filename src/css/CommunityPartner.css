@@ -19,7 +19,7 @@
   width: 100%;
 }
 .communityPartner .image-container .second-image {
-  border: 10px solid var(--secondary-color);
+  border: 10px solid #fff;
   bottom: 2px;
   right: 2px;
   position: absolute;
@@ -31,20 +31,27 @@
   height: 100%;
   width: 100%;
 }
-.communityPartner .content {
+.communityPartner .contents {
   /* height: 510px; */
   width: 500px;
   margin: 10px;
   overflow: hidden;
   position: relative;
 }
-
-.communityPartner .content .title {
-  text-align: left;
+.communityPartner .contents h2 {
   color: #006241;
   font-weight: bolder;
 }
-.communityPartner .content .desc {
+.communityPartner .contents .main-title {
+  text-align: center;
+}
+
+.communityPartner .contents .title {
+  text-align: left;
+
+  /* margin-bottom: 20px; */
+}
+.communityPartner .contents .desc {
   margin: 0 auto;
 
   text-align: justify;
@@ -54,15 +61,15 @@
   color: #222;
   padding-bottom: 20px;
 }
-.communityPartner .content .tearfund-container {
+.communityPartner .contents .tearfund-container {
   padding: 10px;
 }
-.communityPartner .content .tearfund-container .cp-items {
+.communityPartner .contents .tearfund-container .cp-items {
   position: relative;
   padding-left: 20px;
 }
 
-.communityPartner .content .tearfund-container .cp-items::before {
+.communityPartner .contents .tearfund-container .cp-items::before {
   content: "";
   width: 2px;
   height: 90%;
@@ -70,7 +77,7 @@
   position: absolute;
   left: 0;
 }
-.communityPartner .content .tearfund-container .cp-items::after {
+.communityPartner .contents .tearfund-container .cp-items::after {
   content: "";
   width: 20px;
   height: 20px;
@@ -80,13 +87,13 @@
   top: 0;
   border-radius: 50%;
 }
-.communityPartner .content .tearfund-container .first::before {
+.communityPartner .contents .tearfund-container .first::before {
   height: 20px;
   width: 20px;
   border-radius: 50%;
   background-color: #085743;
 }
-.communityPartner .content .tearfund-container .second::after {
+.communityPartner .contents .tearfund-container .second::after {
   height: 50px;
   background-color: #085743;
 }
