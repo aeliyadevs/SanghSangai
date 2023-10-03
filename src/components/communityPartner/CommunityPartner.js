@@ -1,8 +1,25 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import communityPartner from "../../img/team.jpg";
 import "../../css/CommunityPartner.css";
+import Background from "./../background/Background";
 
 const CommunityPartner = () => {
+  const [top, setTop] = useState(0);
+
+  useEffect(() => {
+    const timer = setInterval(() => {
+      // top++;
+      setTop((top) => top + 1);
+    }, 100);
+  }, []);
+
+  // const myStyle = {
+
+  //     top: `${top}px`
+
+  // };
+
+  console.log(top);
   return (
     <div
       id="communityPartner"

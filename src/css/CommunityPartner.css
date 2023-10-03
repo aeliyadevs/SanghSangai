@@ -39,8 +39,8 @@
   position: relative;
 }
 .communityPartner .contents h2 {
-  color: #006241;
   font-weight: bolder;
+  color: #006241;
 }
 .communityPartner .contents .main-title {
   text-align: center;
@@ -86,7 +86,19 @@
   left: -8px;
   top: 0;
   border-radius: 50%;
+  animation: move 2s infinite linear;
 }
+
+@keyframes move {
+  0% {
+    transform: translateY(0);
+  }
+
+  100% {
+    transform: translateY(110px);
+  }
+}
+
 .communityPartner .contents .tearfund-container .first::before {
   height: 20px;
   width: 20px;
