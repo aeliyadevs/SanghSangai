@@ -86,7 +86,7 @@
   left: -8px;
   top: 0;
   border-radius: 50%;
-  animation: move 2s infinite linear;
+  animation: move 5s infinite linear;
 }
 
 @keyframes move {
@@ -94,8 +94,8 @@
     transform: translateY(0);
   }
 
-  100% {
-    transform: translateY(110px);
+  50% {
+    transform: translateY(120px);
   }
 }
 
